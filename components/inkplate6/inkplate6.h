@@ -12,6 +12,7 @@ namespace esphome
             public:
                 void setup() override;
                 void update() override;
+                void dump_config() override;
                 void test();
         }
 

@@ -15,6 +15,11 @@ namespace esphome
             //
         }
 
+        void Inkplate6::dump_config()
+        {
+            // print user configuration
+        }
+
         void Inkplate6::test()
         {
             ESP_LOGD("test", "This is a test debug message");
