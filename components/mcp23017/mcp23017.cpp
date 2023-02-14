@@ -7,7 +7,7 @@ namespace esphome
         static const char *const TAG = "mcp23017";
 
         // mcp23xxx
-        float MCP23XXXBase::get_setup_priority() const { return setup_priority::IO; }
+        float get_setup_priority() const { return setup_priority::IO; }
 
         void MCP23017::setup() { pin_mode(flags_); }
         void MCP23017::pin_mode(gpio::Flags flags) { this->parent_->pin_mode(this->pin_, flags); }

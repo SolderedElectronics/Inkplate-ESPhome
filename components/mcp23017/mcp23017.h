@@ -59,7 +59,7 @@ namespace esphome
             bool digital_read(uint8_t pin) override;
             void digital_write(uint8_t pin, bool value) override;
             void pin_mode(uint8_t pin, gpio::Flags flags) override;
-            void pin_interrupt_mode(uint8_t pin, mcp23xxx_base::MCP23XXXInterruptMode interrupt_mode) override;
+            void pin_interrupt_mode(uint8_t pin, MCP23XXXInterruptMode interrupt_mode) override;
 
             // mcp23xxx
             virtual bool digital_read(uint8_t pin);
