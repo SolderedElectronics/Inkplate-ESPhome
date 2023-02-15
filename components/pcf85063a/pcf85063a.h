@@ -2,6 +2,8 @@
 
 #include "esphome/components/i2c/i2c.h"
 #include "esphome/core/component.h"
+#include "Arduino.h"
+#include "Wire.h"
 
 namespace esphome
 {
